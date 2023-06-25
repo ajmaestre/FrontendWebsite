@@ -13,7 +13,7 @@ y una experiencia amigable para que las páginas web se destaquen en todos los d
 * [Portfolio web](https://ajmaestre.github.io/portfolio/home)
 
 ## Ver ejemplo en vivo
-- [ENLACEGITHUBPAGES](https://ajmaestre.github.io/frontend-website/home)
+- [ENLACEGITHUBPAGES](https://ajmaestre.github.io/FrontendWebsite/)
 
 ## Contacto
 - [EMAIL](ajmaestretorres@gmail.com)
