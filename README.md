@@ -1,3 +1,24 @@
+
+## Descripción
+
+Este es un sitio web personal que ha sido desarrollado en el Framework Angular
+para brindar servicios de maquetación de páginas web. 
+Aquí en esta plataforma, trato de brindar soluciones de diseño adaptativo 
+y una experiencia amigable para que las páginas web se destaquen en todos los dispositivos.
+
+## Autor
+**ALEXANDER MAESTRE TORRES**
+
+* [LinkedIn](https://www.linkedin.com/in/ajmaestre/)
+* [Portfolio web](https://ajmaestre.github.io/portfolio/home)
+
+## Ver ejemplo en vivo
+- [ENLACEGITHUBPAGES](https://ajmaestre.github.io/frontend-website/home)
+
+## Contacto
+- [EMAIL](ajmaestretorres@gmail.com)
+
+
 # FrontendWebsite
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.1.
