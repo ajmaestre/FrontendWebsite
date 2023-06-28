@@ -62,8 +62,11 @@
     height: auto;
 }
 
-.row .second-row img{
+.row .second-row .img{
     width: 100%;
+    height: 30rem;
+    background: url(../../assets/images/people.png);
+    background-size: cover;
 }
 
 .pages{

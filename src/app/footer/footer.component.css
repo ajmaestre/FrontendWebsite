@@ -57,6 +57,12 @@
 
 .links a{
     margin: 0 1rem;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.links a:hover{
+    transform: scale(1.05);
 }
 
 .contacts {
@@ -103,6 +109,12 @@
 
 .mark a{
     color: #989898;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.mark a:hover{
+    color: #000;
 }
 
 p {

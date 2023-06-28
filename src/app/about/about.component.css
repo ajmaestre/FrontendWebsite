@@ -8,15 +8,18 @@
     padding: 12px;
     margin-bottom: 41px;
     flex-wrap: wrap;
-    padding-top: 3rem;
+    padding-top: 1rem;
 }
 
 .about-us .left-img{
     width: 31rem;
 }
 
-.about-us .left-img img{
+.about-us .left-img .img{
     width: 100%;
+    height: 30rem;
+    background: url(../../assets/images/work.png);
+    background-size: cover;
 }
 
 .about-us .right-text{

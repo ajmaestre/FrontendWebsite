@@ -4,18 +4,18 @@
         <h2>AJMaster</h2>
     </div>
     <ul>
-        <li><a [routerLink]='"."' fragment="home" routerLinkActive="active" class="active">Home</a></li>
-        <li><a [routerLink]='"."' fragment="template" >Templates</a></li>
-        <li><a [routerLink]='"."' fragment="about" >About Us</a></li>
-        <li><a [routerLink]='"."' fragment="contact" >Contact Us</a></li>
+        <li><a [routerLink]='"home"' fragment="home" routerLinkActive="activebutton" class="active">Home</a></li>
+        <li><a [routerLink]='"home"' fragment="template" >Templates</a></li>
+        <li><a [routerLink]='"home"' fragment="about" >About Us</a></li>
+        <li><a [routerLink]='"home"' fragment="contact" >Contact Us</a></li>
     </ul>
     <div class="login-btn">
-        <a routerLink="login">Login</a>
+        <a routerLink="./login" class="a"><a routerLink="./login">Login</a></a>
     </div>
     <div class="shop-main">
         <span>1</span>
         <a routerLink="shop">
-            <img src="../../assets/images/shopstore2.png" alt="Not found" id="lm">
+            <div class="img" id="lm"></div>
         </a>
     </div>
 

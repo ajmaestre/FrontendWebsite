@@ -9,13 +9,15 @@
     flex-direction: row-reverse;
     flex-wrap: wrap-reverse;
     box-shadow: 12px 12px 34px #00000021;
-    padding: 16px;
+    padding: 2rem;
     border-radius: 10px;
-    padding-top: 0;
 }
 
 #img{
-    width: 200px;
+    width: 15rem;
+    height: 10rem;
+    background: url(../../assets/images/woman.png);
+    background-size: cover;
 }
 
 .contact-us-body .form-body form{
@@ -23,6 +25,10 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.contact-us-body .form-body form h2{
+    margin-bottom: 1rem;
 }
 
 .contact-us-body .form-body form .input-group{

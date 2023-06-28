@@ -11,10 +11,11 @@ const routesOptions: ExtraOptions = {
   scrollOffset: [0, 64],
 }
 
-const routes: Routes = [{ path: '', redirectTo: 'home', pathMatch: 'full' },
+const routes: Routes = [{ path: '', redirectTo: '/home', pathMatch: 'full' },
                         { path: 'home', component: HomeComponent },
                         { path: 'login', component: LoginComponent },
-                        { path: 'shop', component: ShopComponent }
+                        { path: 'shop', component: ShopComponent },
+                        { path: '**', redirectTo: '/home', pathMatch: 'full' }
                       ];
 
 @NgModule({
