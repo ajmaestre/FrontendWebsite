@@ -1,0 +1,20 @@
+
+<div class="contact-us-body" id="contact">
+    <div class="form-body">
+        <form [formGroup]="data">
+            <h2>Contact Us</h2>
+            <div class="input-group">
+                <input type="email" placeholder="Email" formControlName="email">
+                <input type="text" placeholder="Subject" formControlName="subject">
+            </div>
+            <textarea name="message" id="message" placeholder="Message" cols="30" rows="10" formControlName="message"></textarea>
+            <span *ngIf="form_fill">You have to fill all the fields.</span>
+            <button (click)="sendEmail()">Submit</button>
+        </form>
+        <div class="right-img">
+            <img src="../../assets/images/woman.png" alt="Not found" id="img">
+        </div>
+    </div>
+</div>
+
+<app-modal-msg></app-modal-msg>

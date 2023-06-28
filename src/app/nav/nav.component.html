@@ -1,0 +1,40 @@
+<nav class="top-nav">
+    <div class="logo-icon">
+        <!-- <img src="../../assets/images/store.png" alt="Not found" id="logo"> -->
+        <h2>AJMaster</h2>
+    </div>
+    <ul>
+        <li><a [routerLink]='"."' fragment="home" routerLinkActive="active" class="active">Home</a></li>
+        <li><a [routerLink]='"."' fragment="template" >Templates</a></li>
+        <li><a [routerLink]='"."' fragment="about" >About Us</a></li>
+        <li><a [routerLink]='"."' fragment="contact" >Contact Us</a></li>
+    </ul>
+    <div class="login-btn">
+        <a routerLink="login">Login</a>
+    </div>
+    <div class="shop-main">
+        <span>1</span>
+        <a routerLink="shop">
+            <img src="../../assets/images/shopstore2.png" alt="Not found" id="lm">
+        </a>
+    </div>
+
+</nav>
+
+<div class="mobile-nav-bar">
+    <a  [routerLink]='"."' fragment="home" routerLinkActive="active">
+        <img src="../../assets/images/store.png" alt="Not found" class="icon1 active">
+    </a>
+    <a  [routerLink]='"."' fragment="template" routerLinkActive="active">
+        <img src="../../assets/images/store.png" alt="Not found" class="icon1 active">
+    </a>
+    <a  [routerLink]='"."' fragment="about">
+        <img src="../../assets/images/infos.png" alt="Not found" class="icon2">
+    </a>
+    <a [routerLink]='"."' fragment="contact">
+        <img src="../../assets/images/copy.png" alt="Not found" class="icon2">
+    </a>
+    <a routerLink="login">
+        <img src="../../assets/images/user2.png" alt="Not found" class="icon2">
+    </a>
+</div>

@@ -1,0 +1,87 @@
+
+.modal{
+    position: fixed;
+    top: 40%;
+    left: 30%;
+    width: 30rem;
+    height: 10rem;
+    border-radius: 10px;
+    box-shadow: 12px 12px 34px #00000021;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding-left: 2rem;
+    animation: show-modal 1s ease normal;
+}
+
+.loading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .5rem;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px solid gainsboro;
+}
+
+.circle-out{
+    position: absolute;
+    width: 5rem;
+    height: 2rem;
+    background: #ec284b;
+    animation: load 1s ease-in-out infinite;
+}
+
+.circle-in{
+    width: 3rem;
+    height: 3rem;
+    background: #fff;
+    z-index: 2;
+    border-radius: 50%;
+    border: 2px solid gainsboro;
+}
+
+.icon{
+    width: 4rem;
+    height: 4rem;
+}
+
+.message{
+    width: 50%;
+    margin: 0 1rem;
+    font-size: 19px;
+    width: 16rem;
+    color: #717171;
+}
+
+.close{
+    height: 100%;
+    padding-top: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.close:hover{
+    color: #717171;
+}
+
+@keyframes load {
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes show-modal {
+    40%{
+        transform: scale(1.1);
+    }
+    80%{
+        transform: scale(.9);
+    }
+    100%{
+        transform: scale(1);
+    }
+}

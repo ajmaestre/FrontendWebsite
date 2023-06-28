@@ -1,0 +1,170 @@
+
+#logo{
+    width: 40px;
+    height: 40px;
+}
+
+#lm{
+    width: 24px;
+    height: 24px;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    border: none;
+}
+
+input{
+    outline: none;
+}
+
+.active{
+    color: #ec284b !important;
+    fill:  #ec284b;
+}
+
+.top-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 5rem;
+    min-width: 100vw;
+}
+
+.top-nav ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.top-nav ul li{
+    margin: 0px 38px 0px 33px;
+}
+
+.top-nav ul li a{
+    color: #989898;
+    font-size: 20px;
+}
+
+.top-nav .login-btn{
+    width: 101px;
+    height: 41px;
+    position: absolute;
+    right: 5rem;
+}
+
+.top-nav .login-btn a{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #989898;
+    border: 2px solid gainsboro;
+    border-radius: 28px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.top-nav .login-btn a:hover{
+    background: #ec284b;
+    border: none;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+.top-nav .logo-icon{
+    width: 7rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    position: absolute;
+    left: 2rem;
+    color: #717171;
+}
+
+.top-nav .shop-main{
+    position: absolute;
+    right: 2rem;
+    width: 37px;
+    height: 37px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 12px 12px 20px #0000002e;
+}
+
+.top-nav .shop-main span{
+    width: 19px;
+    height: 19px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ec284b;
+    position: absolute;
+    top: -9px;
+    right: -3px;
+    color: #fff;
+    z-index: 1;
+}
+
+.top-nav .shop-main a img{
+    transform: rotate(346deg);
+}
+
+.mobile-nav-bar{
+    width: 100%;
+    height: 4rem;
+    background: #fff;
+    border-radius: 0px 0px 26px 26px;
+    box-shadow: 0px -11px 20px #0000001f;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mobile-nav-bar a .icon1{
+    width: 34px;
+}
+
+.mobile-nav-bar a .icon2{
+    width: 24px;
+    height: 24px;
+}
+
+@media (max-width: 728px) {
+    .login-btn{
+        display: none !important;
+    }
+    .shop-main{
+        display: none !important;
+    }
+}
+
+@media (max-width: 688px) {
+    .top-nav{
+        display: none;
+    }
+}
+
+@media (min-width: 688px) {
+    .mobile-nav-bar{
+        display: none;
+    }
+}
